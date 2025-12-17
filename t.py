@@ -10,7 +10,8 @@ app = Flask(__name__)
 app.secret_key = "my_super_secure_secret_key"  # Change for production
 
 # SET YOUR API KEY HERE
-GEMINI_API_KEY = "AIzaSy..." # <--- PASTE YOUR KEY HERE
+# Replace the whole os.getenv part with just your key string
+GEMINI_API_KEY = "AIzaSyC1lLjIKcLe6hI4gpdZ3haRWfSJy0rm2h4"
 
 # --- LOGGING ---
 logging.basicConfig(level=logging.INFO)
