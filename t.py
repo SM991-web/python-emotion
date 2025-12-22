@@ -12,7 +12,7 @@ app = Flask(__name__)
 app.secret_key = "mental_health_secure_key_2024" 
 
 
-GEMINI_API_KEY = "AIzaSyC1lLjIKcLe6hI4gpdZ3haRWfSJy0rm2h4"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # --- AI SERVICES SETUP ---
 LLM_AVAILABLE = False

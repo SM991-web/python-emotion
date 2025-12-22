@@ -1,0 +1,12 @@
+# Ignore the secret key file
+.env
+
+# Ignore Python's internal files
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
