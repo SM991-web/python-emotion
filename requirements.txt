@@ -1,0 +1,8 @@
+flask==3.1.2
+opencv-python
+numpy
+openai
+deepface==0.0.96
+python-dotenv
+tf-keras
+google-genai
